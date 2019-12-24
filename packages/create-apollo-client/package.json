@@ -40,5 +40,6 @@
     "graphql": "^14.5.8",
     "isomorphic-unfetch": "^3.0.0",
     "subscriptions-transport-ws": "^0.9.16"
-  }
+  },
+  "gitHead": "63e5a39000f71b09bb08da588b5e42c5f18cf210"
 }
