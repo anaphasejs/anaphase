@@ -2,6 +2,7 @@ import express from "express";
 import next from "next";
 import { ApolloOptions, buildApolloServer } from "./apolloServer";
 import { logger } from "./logger";
+export { logger } from "./logger";
 
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
