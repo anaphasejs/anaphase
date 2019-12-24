@@ -47,10 +47,10 @@ export const makeServer = ({
     }
 
     server.all("*", (req, res) => {
-      return handle(req, res);
+      return handle(req as any, res);
     });
 
-    server.listen(port, async err => {
+    server.listen(port, async (err: any) => {
       if (err) throw err;
       logger.info(`> Ready on http://localhost:${port}`);
     });
