@@ -1,5 +1,4 @@
 import express from "express";
-import * as core from "express-serve-static-core";
 import next from "next";
 import { ApolloOptions, buildApolloServer } from "./apolloServer";
 import { logger } from "./logger";
@@ -16,8 +15,8 @@ process.on("unhandledRejection", error => {
 export interface ServerOptions extends ApolloOptions {
   port: number;
   trustProxy?: boolean;
-  loadBeforeApollo?: (server: core.Express) => void;
-  loadAfterApollo?: (server: core.Express) => void;
+  loadBeforeApollo?: (server: express.Express) => void;
+  loadAfterApollo?: (server: express.Express) => void;
 }
 
 export const makeServer = ({
