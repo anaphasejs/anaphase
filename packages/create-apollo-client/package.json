@@ -1,5 +1,5 @@
 {
-  "name": "@anaphase/create-apollo-client",
+  "name": "@anaphasejs/create-apollo-client",
   "version": "0.0.2",
   "description": "Anaphase default Apollo client",
   "author": "Ian Macalinao <me@ian.pw>",
@@ -41,5 +41,5 @@
     "isomorphic-unfetch": "^3.0.0",
     "subscriptions-transport-ws": "^0.9.16"
   },
-  "gitHead": "63e5a39000f71b09bb08da588b5e42c5f18cf210"
+  "gitHead": "9bf6b98f18d19642c6d760169dd406488010b4c2"
 }
