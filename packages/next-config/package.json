@@ -29,7 +29,12 @@
   "dependencies": {
     "@zeit/next-less": "^1.0.1",
     "less": "^3.10.3",
-    "null-loader": "^3.0.0",
     "webpack": "^4.41.4"
+  },
+  "peerDependencies": {
+    "null-loader": "^3.0.0"
+  },
+  "devDependencies": {
+    "null-loader": "^3.0.0"
   }
 }
