@@ -1,6 +1,6 @@
 {
   "name": "@anaphasejs/create-apollo-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Anaphase default Apollo client",
   "author": "Ian Macalinao <me@ian.pw>",
   "homepage": "https://github.com/anaphasejs/anaphase#readme",
