@@ -12,6 +12,7 @@
     "typescript": "^3.7.4"
   },
   "scripts": {
+    "lerna:publish": "lerna run build && lerna publish",
     "lint": "eslint \"./**/*.{ts,tsx}\""
   },
   "workspaces": [
