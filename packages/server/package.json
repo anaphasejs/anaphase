@@ -1,0 +1,53 @@
+{
+  "name": "@anaphasejs/server",
+  "version": "0.0.5",
+  "description": "> TODO: description",
+  "author": "Ian Macalinao <me@ian.pw>",
+  "homepage": "https://github.com/anaphasejs/anaphase#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaphasejs/anaphase.git"
+  },
+  "scripts": {
+    "build": "rm -fr lib/ && tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/anaphasejs/anaphase/issues"
+  },
+  "dependencies": {
+    "@types/graphql-type-json": "^0.3.2",
+    "@types/graphql-type-uuid": "^0.2.3",
+    "@types/node": "^13.1.0",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "apollo-server-express": "^2.9.14",
+    "express": "^4.17.1",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.6",
+    "graphql-type-json": "^0.3.1",
+    "graphql-type-uuid": "^0.2.0",
+    "http-proxy-middleware": "^0.20.0",
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "winston": "^3.2.1",
+    "@anaphasejs/logger": "0.0.5"
+  },
+  "devDependencies": {
+    "@types/http-proxy-middleware": "^0.19.3"
+  }
+}
