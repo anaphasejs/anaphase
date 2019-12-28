@@ -21,10 +21,6 @@
     "type": "git",
     "url": "git+https://github.com/anaphasejs/anaphase.git"
   },
-  "scripts": {
-    "build": "rm -fr lib/ && tsc",
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
   "bugs": {
     "url": "https://github.com/anaphasejs/anaphase/issues"
   }
