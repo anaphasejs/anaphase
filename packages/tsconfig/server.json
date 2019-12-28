@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    "jsx": "react",
+    "noEmit": false,
+    "outDir": "../.next/production-server/",
+    "isolatedModules": false
+  }
+}
