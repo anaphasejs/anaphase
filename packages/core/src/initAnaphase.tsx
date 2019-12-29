@@ -27,7 +27,7 @@ interface Anaphase<U> {
   useUser: () => U | null;
 }
 
-export default function withAnaphase<U>({
+export default function initAnaphase<U>({
   sentryDSN,
   fetchUser
 }: Args<U>): Anaphase<U> {
