@@ -1,6 +1,6 @@
 {
   "name": "@anaphasejs/server",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "> TODO: description",
   "author": "Ian Macalinao <me@ian.pw>",
   "homepage": "https://github.com/anaphasejs/anaphase#readme",
@@ -29,7 +29,7 @@
     "url": "https://github.com/anaphasejs/anaphase/issues"
   },
   "dependencies": {
-    "@anaphasejs/logger": "^0.0.11",
+    "@anaphasejs/logger": "^0.0.12",
     "@types/express": "^4.17.2",
     "@types/graphql-type-json": "^0.3.2",
     "@types/graphql-type-uuid": "^0.2.3",
