@@ -22,7 +22,7 @@
     "url": "git+https://github.com/anaphasejs/anaphase.git"
   },
   "scripts": {
-    "build": "rm -fr lib/ && tsc",
+    "build": "rm -fr lib/ && tsc && babel src/ --out-dir lib -x .ts,.tsx --source-maps",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@anaphasejs/create-apollo-client": "^0.0.15",
+    "@babel/runtime-corejs2": "^7.7.7",
     "@sentry/browser": "^5.10.2",
     "@types/react": "^16.9.17",
     "@types/styled-components": "^4.4.1",
@@ -51,7 +52,12 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
     "@types/nprogress": "^0.2.0",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-module-resolver": "^4.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
