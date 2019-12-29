@@ -1,3 +1,4 @@
+import React from "react";
 import { ApolloProvider } from "@apollo/react-hooks";
 import * as Sentry from "@sentry/browser";
 import { NormalizedCacheObject } from "apollo-cache-inmemory";
