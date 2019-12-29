@@ -12,7 +12,7 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "*.json"
   ],
   "publishConfig": {
     "access": "public"
