@@ -3,18 +3,6 @@
   "plugins": [
     "@babel/plugin-proposal-optional-chaining",
     [
-      "module-resolver",
-      {
-        "root": ["."],
-        "alias": {
-          "~": "./",
-          "~components": "./components",
-          "~lib": "./lib",
-          "~pages": "./pages"
-        }
-      }
-    ],
-    [
       "import",
       {
         "libraryName": "antd",
