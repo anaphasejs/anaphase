@@ -50,5 +50,8 @@
   },
   "devDependencies": {
     "@types/http-proxy-middleware": "^0.19.3"
+  },
+  "peerDependencies": {
+    "graphql": "^14.5.8"
   }
 }

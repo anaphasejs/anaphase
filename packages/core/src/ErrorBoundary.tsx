@@ -1,5 +1,4 @@
 import * as Sentry from "@sentry/browser";
-import { Button } from "antd";
 import Head from "next/head";
 import React, { Component, ErrorInfo, PropsWithChildren } from "react";
 
@@ -40,8 +39,7 @@ class ErrorBoundary extends Component<Props, State> {
             you were doing when this error showed up, it would help up fix
             things faster!
           </p>
-          <Button
-            type="primary"
+          <button
             onClick={(): void =>
               Sentry.showReportDialog({
                 eventId: this.state.eventId || "unknown"
@@ -49,7 +47,7 @@ class ErrorBoundary extends Component<Props, State> {
             }
           >
             Report feedback
-          </Button>
+          </button>
         </>
       );
       if (this.props.fullPage) {
