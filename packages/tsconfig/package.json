@@ -1,6 +1,6 @@
 {
   "name": "@anaphasejs/tsconfig",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Typescript configs for anaphase",
   "author": "Ian Macalinao <me@ian.pw>",
   "homepage": "https://github.com/anaphasejs/anaphase#readme",

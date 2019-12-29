@@ -1,6 +1,6 @@
 {
   "name": "@anaphasejs/core",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "> TODO: description",
   "author": "Ian Macalinao <me@ian.pw>",
   "homepage": "https://github.com/anaphasejs/anaphase#readme",
@@ -29,7 +29,7 @@
     "url": "https://github.com/anaphasejs/anaphase/issues"
   },
   "dependencies": {
-    "@anaphasejs/create-apollo-client": "^0.0.18",
+    "@anaphasejs/create-apollo-client": "^0.0.19",
     "@babel/runtime-corejs2": "^7.7.7",
     "@sentry/browser": "^5.10.2",
     "@types/react": "^16.9.17",
