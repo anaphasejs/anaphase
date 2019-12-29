@@ -9,7 +9,7 @@ import ErrorBoundary from "./ErrorBoundary";
 import NProgressContainer from "./NProgressContainer";
 import { withApollo } from "./withApollo";
 
-interface Props<U> extends AppInitialProps {
+export interface Props<U> extends AppInitialProps {
   apollo: ApolloClient<NormalizedCacheObject>;
   currentUser: U | null;
 }
@@ -26,7 +26,7 @@ type AppWrapperProps<U> = PropsWithChildren<{
   apollo: ApolloClient<NormalizedCacheObject>;
 }>;
 
-interface Anaphase<U> {
+export interface Anaphase<U> {
   AppWrapper: React.FC<AppWrapperProps<U>>;
   getInitialProps: (ctx: AppContext) => Promise<Omit<Props<U>, "apollo">>;
   withApollo: any;
